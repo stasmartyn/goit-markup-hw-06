@@ -272,8 +272,6 @@ header {
 }
 
 .what-we-do {
-  align-items: center;
-
   background-color: var(--white);
 }
 .what-we-do-title {
@@ -473,6 +471,7 @@ footer {
 }
 .content-groop {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social-link {
