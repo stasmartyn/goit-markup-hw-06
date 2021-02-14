@@ -464,28 +464,49 @@
         <use href="./img/sprit-icon.svg#icon-close"></use>
       </svg></button>
         
-<form>
+<form class="modal-form">
+  <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
 
 <label>
-  <p>Имя</p>
-  <input type="text" name="user-name"/>
+  Имя
+  <span class="img-form-position">
+  <input type="text" name="user-name" required>
+  <svg class="img-form">
+    <use href="./img/sprit-icon.svg#icon-Vector-1"></use>
+  </svg>
+  </span>
 </label>
 <label>
-  <p>Телефон</p>
-  <input type="tel" name="phone-number">
-</label>
-<label>
-  <p>Почта</p>
+  Телефон
 
-  <input type="mail"/>
+  <span class="img-form-position">
+  <input type="tel" name="phone-number" required>
+  <svg class="img-form">
+    <use href="./img/sprit-icon.svg#icon-Vector-2"></use>
+  </svg>
+  </span>
 </label>
 <label>
-  <p>Комментарий</p>
-  <textarea>
+  Почта
+<span class="img-form-position">
+  <input type="email" name="email" required>
+  <svg class="img-form">
+    <use href="./img/sprit-icon.svg#icon-Vector-3"></use>
+  </svg>
+  </span>
+</label>
+<label class="text-form">
+  Комментарий
+  <textarea placeholder="Введите текст" >
   
   </textarea>
 
 </label>
+<label class="polisi-form" >
+  <input type="checkbox"> Соглашаюсь с рассылкой и принимаю <a href="#" class="polisi-link">Условия договора</a> 
+</label>
+
+<button type="submit" class="button-form">Отправить</button>
 
 </form>
 
