@@ -27,7 +27,7 @@
 .portfolio-descr-list-item:hover .portfolio-map-descr {
   transform: translateY(0);
 }
-.img-portfolio-list:hover.portfolio-map-descr {
+.img-portfolio-list-link:focus .portfolio-map-descr {
   transform: translateY(0);
 }
 
